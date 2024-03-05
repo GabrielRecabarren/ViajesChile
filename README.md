@@ -56,7 +56,8 @@ El proyecto se organiza de acuerdo a los requerimientos establecidos:
 
 Este proyecto fue desarrollado por [Gabriel Recabarren](https://github.com/GabrielRecabarren).
 
-
+### Despliegue
+Puedes ver este proyecto desplegado en [GitHub-Pages](https://gabrielrecabarren.github.io/ViajesChile/).
 
 ---
 
