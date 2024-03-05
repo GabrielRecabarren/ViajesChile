@@ -54,7 +54,7 @@ El proyecto se organiza de acuerdo a los requerimientos establecidos:
 
 ### Autor
 
-Este proyecto fue desarrollado por [Gabriel Recabarren](https://github.com/tu-usuario).
+Este proyecto fue desarrollado por [Gabriel Recabarren](https://github.com/GabrielRecabarren).
 
 
 
