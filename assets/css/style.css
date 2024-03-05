@@ -1,0 +1,26 @@
+/*Fuente importada: Montserrat*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Formateo */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*Selector Etiqueta*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+
+/*Selector Clase*/
+.rrss-icon{
+  text-decoration: none;
+  color: white;
+}
+
+/*Selector Id*/
+#enviarMensaje{
+  color: white;
+}

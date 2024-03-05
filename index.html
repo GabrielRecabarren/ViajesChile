@@ -254,37 +254,38 @@
         </div>
       </section>
 
-      <!--Sección deContacto con modal en botón enviar. Formulario con tooltips-->
+      <!--Sección de Contacto con modal al apretar botón enviar. Formulario con tooltips-->
       <section id="contacto" class="container my-5 text-light">
         <div class="text-center" style="border-bottom: solid">
           <h1>CONTACTO</h1>
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-12">
-            <div class="mb-3">
-              <label for="nombre" class="form-label">Nombre</label>
-              <input
-                type="text"
-                class="form-control"
-                id="nombre"
-                placeholder=""
-                data-bs-toggle="tooltip"
-                data-bs-placement="bottom"
-                data-bs-custom-class="custom-tooltip"
-                data-bs-title="Ingresa tu nombre"
-              />
+            <div class="col-md-12">
+              <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nombre"
+                  placeholder="Escribe tu nombre"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Ingresa tu nombre"
+                />
+              </div>
             </div>
+          </div>
+          
             <div class="mb-3">
               <label for="asunto" class="form-label">Asunto</label>
               <input
                 type="text"
                 class="form-control"
                 id="asunto"
-                placeholder=""
+                placeholder="Cuál es tu asunto?"
                 data-bs-toggle="tooltip"
                 data-bs-placement="bottom"
-                data-bs-custom-class="custom-tooltip"
-                data-bs-title="Ingresa el asunto del mensaje"
+                title="Ingresa el asunto del mensaje"
               />
             </div>
             <div class="mb-3">
@@ -293,11 +294,10 @@
                 class="form-control"
                 id="mensaje"
                 rows="6"
-                placeholder=""
+                placeholder="Escribe aquí tus mensaje."
                 data-bs-toggle="tooltip"
                 data-bs-placement="bottom"
-                data-bs-custom-class="custom-tooltip"
-                data-bs-title="Escribe lo que nos quieras decir"
+                title="Escribe aquí tus mensajes."
               ></textarea>
             </div>
             <div class="my-3 text-start">
@@ -353,6 +353,24 @@
         </div>
       </section>
     </main>
+     <!-- Se agreFooter-->
+     <footer id="rrss" class="bg-info py-3 text-light">
+        <div class="row text-center">
+            <div class="col-6">
+                <h3>VIAJES CHILE</h3>
+            </div>
+            <div class="col-6">
+                <a href="https://github.com/" class="rrss-icon"><i
+                        class="fa-brands fa-square-github fa-2x px-1"></i></a>
+                <a href="https://www.linkedin.com/" class="rrss-icon"><i
+                        class="fa-brands fa-linkedin fa-2x px-1"></i></a>
+                <a href="https://twitter.com/" class="rrss-icon"><i
+                        class="fa-brands fa-square-twitter fa-2x px-1"></i></a>
+                <a href="https://www.facebook.com/" class="rrss-icon"><i
+                        class="fa-brands fa-square-facebook fa-2x px-1"></i></a>
+            </div>
+        </div>
+    </footer>
 
     <!--Jquery-->
     <script
